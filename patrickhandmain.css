@@ -1,0 +1,133 @@
+body {
+  color: salmon;
+  font-size: 18px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.clr {
+  clear: both;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  color: lightcoral;
+  display: inline-block;
+  /*font-weight: 800;*/
+}
+
+h1 {
+  color: indianred;
+  font-size: 46px;
+}
+
+h2 {
+  /*color: olive;*/
+  font-size: 24px;
+  padding: 13px 0;
+}
+
+h3 {
+  font-size: 22px;
+  color: grey;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+p {
+color: indianred;
+}
+
+img {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  color: indianred;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  color: salmon;
+  text-align: center;
+  padding: 16px 0;
+}
+
+nav {
+	font-size: 30px;
+ 	float: right;
+}
+
+nav a {
+	text-decoration: none;
+  color: salmon;
+	margin: 27px;
+	display: inline-block;
+}
+
+.block {
+  float: left;
+  width: 22%;
+  padding: 9px;
+}
+
+.tour {
+    background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg);
+    /*background-color: mistyrose;*/
+    text-align: center;
+    margin: 30px;
+  }
+
+/*@media (max-width: 700px) {*/
+  /*.block {*/
+    /*text-align: center;*/
+    /*width: 500px;*/
+    /*padding: 20px;*/
+  /*}*/
+
+@media (max-width: 500px) {
+
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  nav {
+  font-size: 55px;
+  text-align: center;
+  float: none;
+  padding: 0 200px;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .tour {
+    background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg);
+    text-align: center;
+    color: black;
+  }
+
+  .block {
+    color: grey;
+    text-align: center;
+    float: none;
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
