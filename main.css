@@ -4,23 +4,21 @@ width: 100vw;
 
 body {
   margin: 0, auto;
-  color: white;
   font-size: 18px;
   font-family: 'Bahiana', cursive;
-  background:
-rgba(219, 147, 134, 0.6);
+  background: linear-gradient(black, rgb(22, 20, 20));
 }
 
 nav a {
-  padding: 7vh 0 7vh 0;
+  padding: 7vh 2vw 7vh 0;
   font-size: 66px;
   text-decoration: none;
-  color: white;
+  color: rgb(141, 114, 114);
 }
 
 .drewcifer {
-  color: white;
-  padding: 7vh 0 7vh 0;
+  color: rgb(141, 114, 114);
+  padding: 7vh 0 7vh 2vw;
 }
 
 .hero-image {
@@ -28,7 +26,7 @@ nav a {
   opacity: .9;
 }
 
-.tour-about {
+.nav-tour-about {
   display: grid;
   color: white;
   grid-template-columns: 7fr 1fr 1fr 1fr;
@@ -36,6 +34,19 @@ nav a {
 }
 
 /* Upcoming shows heading */
+
+.tour-and-video {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  padding: 6vh 0 16vh 0;
+}
+
+.tour {
+  text-align: center;
+  width: 30vw;
+  padding-top: 20vh;
+}
 
 h3 {
   font-size: 32px;
@@ -51,22 +62,10 @@ ul {
   margin: 0 auto;  
 }
 
-.tour-and-video {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 3fr;
-  padding: 6vh 0 16vh 0;
-}
-
-.tour {
-  text-align: center;
-  width: 30vw;
-  padding-top: 20vh;
-  /* padding: 22vh 0 0 2wv; */
-}
 
 .hero-video {
-  width: 40vw;
+  width: 80vw;
+  padding-left: 20vw;
 }
 
 footer {
@@ -97,12 +96,18 @@ footer {
   .drewcifer {
     padding: 7vh 0 7vh 0;
   }
+
+  body {
+    color: rgb(182, 206, 44);
+    font-size: 80px;
+    
+  }
+  
 }
 
 @media (max-width: 960px) {
   
   nav a {
-    padding: 7vh 0 7vh 0;
     font-size: 44px;
   }
   .drewcifer {
@@ -114,7 +119,6 @@ footer {
 @media (max-width: 700px) {
   
   nav a {
-    padding: 7vh 0 7vh 0;
     font-size: 38px;
   }
   .drewcifer {
@@ -126,10 +130,9 @@ footer {
 @media (max-width: 475px) {
   
   nav a {
-    padding: 7vh 0 7vh 0;
     font-size: 20px;
   }
   .drewcifer {
-    padding: 7vh 0 7vh 0;
+    /* padding: 7vh 0 7vh 0; */
   }
 }
